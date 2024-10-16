@@ -2,13 +2,13 @@ name = "pastebin-worker"
 compatibility_date = "2023-10-30"
 compatibility_flags = ["nodejs_compat"]
 
-account_id = "516d0a360ccdea88dd79e9cf5d2bc3aa"
+account_id = "b6797166e1862085aa0e7ca25b7af3f0"
 main = "src/index.ts"
 workers_dev = false
 
 [vars]
 ENVIRONMENT = "production"
-BASE_URL = "https://as.al"
+BASE_URL = "https://pastebin.youmans-top.top"
 
 [site]
 bucket = "./static/dist"
@@ -24,5 +24,5 @@ bucket_name = 'pastes'
 
 [[d1_databases]]
 binding = "DB"
-database_name = "pastebins"
-database_id = "e7d77803-c383-45c8-9481-c1630aa43bca"
+database_name = "pastebin"
+database_id = "cdbb7974-f7a1-437f-a47b-e3ef23973e28"
